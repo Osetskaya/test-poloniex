@@ -1,11 +1,12 @@
 export type RootStackParamList = {
-  Root: undefined;
+  Info: undefined;
+  Poloniex: undefined;
   NotFound: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Info: undefined;
+  Poloniex: undefined;
 };
 
 export type TabOneParamList = {
