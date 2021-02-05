@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from 'react';
-import { ActivityIndicator, StyleSheet, ScrollView, Animated } from 'react-native';
+import { ActivityIndicator, StyleSheet, ScrollView } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 
 import { Text, View } from './Themed';
@@ -12,7 +12,7 @@ interface IItem {
   percentChange: string;
 }
 
-export default function TablePoloniex() {
+export const TablePoloniex = () => {
   const [poloniexData, setPoloniexData] = useState<IItem[]>([]);
   const [isLoading, setLoading] = useState(true);
   const [isError, setError] = useState(false);
